@@ -272,10 +272,11 @@ td a:hover {
 
 
 @media (max-width:992px) {
-    .bordure-logo {
-        display: none;
-    }
+
     .logo {
+      width: 104%;
+    }
+    .bordure-logo {
         display: none;
     }
 }
