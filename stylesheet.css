@@ -67,19 +67,19 @@ body {
     font-size: 2.5em;
 }
 
+.liste-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.liste-menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .étoile {
     vertical-align: -2px;
     width: 8%;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: none;
-    color: white;
 }
 
 .recent-updates {
@@ -203,9 +203,69 @@ ul ol {
     border-width: 2px 0;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: #4b4848;
+    background-color: #272727;
 }
 
 .liste-navigateurs {
     list-style-image: url(img/bullet.gif);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+td {
+    border-bottom: 1px solid #808080;
+    padding: 6px;
+    background-color: #272727;
+    color: #808080;
+}
+
+.footer {
+    margin-top: 30px;
+    background-image: url(img/footer.gif);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 515px;
+        margin-right: -40px;
+}
+
+.grille1 {
+    width: 220px;
+}
+
+.grille2 {
+    width: 220px;
+}
+
+.titre-tab {
+    font-family: 'Arial Black', arial;
+    font-size: 1.5em;
+}
+
+.tab1 {
+    float: left;
+    margin-right: 70px;
+    margin-left: 35px;
+}
+
+.texte-pied {
+    margin-top: 20px;
+}
+
+td a {
+    text-decoration: none;
+    color: #808080;
+}
+
+td a:hover {
+    text-decoration: none;
+    color: #808080;
+}
+
+.pied {
+    margin-top: 85px;
 }
