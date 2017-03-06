@@ -61,13 +61,15 @@ body {
     z-index: 10;
 }
 
-.liste-menu {
+
+/*.liste-menu {
     list-style: none;
     font-family: 'Arial Black', arial;
     font-size: 2.5em;
-}
+}*/
 
-.liste-menu a {
+
+/*.liste-menu a {
     text-decoration: none;
     color: white;
 }
@@ -75,11 +77,28 @@ body {
 .liste-menu a:hover {
     text-decoration: none;
     color: white;
+}*/
+
+.liste-menubis {
+    font-family: 'Arial Black', arial;
+    font-size: 2.5em;
 }
 
-.étoile {
-    vertical-align: -2px;
-    width: 8%;
+.liste-menubis li {
+    list-style-image: url(img/star1.jpg);
+    text-decoration: none;
+    color: white;
+}
+
+.liste-menubis li:hover {
+    list-style-image: url(img/star2.jpg);
+    text-decoration: none;
+    color: white;
+}
+
+.liste-menubis a {
+    text-decoration: none;
+    color: white;
 }
 
 .recent-updates {
@@ -91,6 +110,47 @@ body {
     margin-top: 50px;
 }
 
+.detail-updated div {
+    display: none;
+}
+
+#a1:hover+#div1 {
+    display: block;
+}
+
+#a2:hover+#div2 {
+    display: block;
+}
+
+#a3:hover+#div3 {
+    display: block;
+}
+
+#a4:hover+#div4 {
+    display: block;
+}
+
+#a5:hover+#div5 {
+    display: block;
+}
+
+#a6:hover+#div6 {
+    display: block;
+}
+
+#a7:hover+#div7 {
+    display: block;
+}
+
+#a8:hover+#div8 {
+    display: block;
+}
+
+.texte-update {
+    font-family: 'Arial Black', arial;
+    font-size: 0.6em;
+}
+
 .updated {
     font-family: 'Arial Black', arial;
     font-size: 1.5em;
@@ -100,6 +160,7 @@ body {
 }
 
 .detail-updated {
+    list-style: none;
     font-family: 'Arial Black', arial;
     font-size: 1.5em;
     border-color: #fff000;
@@ -107,6 +168,11 @@ body {
     border-width: 5px;
     padding-left: 15px;
     height: 500px;
+}
+
+.detail-updated a {
+    text-decoration: none;
+    color: white;
 }
 
 .updated p {
@@ -188,7 +254,6 @@ ul ol {
 
 .photo-gauche2 {
     float: right;
-    ;
     border-style: solid;
     border-color: #fff000;
     padding: 4px;
@@ -270,11 +335,9 @@ td a:hover {
     margin-top: 85px;
 }
 
-
 @media (max-width:992px) {
-
     .logo {
-      width: 104%;
+        width: 104%;
     }
     .bordure-logo {
         display: none;
